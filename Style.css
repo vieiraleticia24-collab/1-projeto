@@ -13,8 +13,16 @@ header{
    background-color: white;
   color: rgb(94, 32, 142);
   margin: 0 auto;
+  padding: 16px;
+
    display: flex
-   display: flex;
+   
+  }
+
+  article{
+    display: flex;
+
+    border: 1px solid ;
   }
 
  img{
