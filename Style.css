@@ -16,6 +16,7 @@ header{
   padding: 16px;
 
    display: flex;
+   flex-wrap: wrap;
    
   }
 
@@ -23,6 +24,14 @@ header{
     display: flex;
 
     border: 1px solid rgb(118, 56, 180);
+
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+
+    flex: 1 1 25%
   }
 
  img{
