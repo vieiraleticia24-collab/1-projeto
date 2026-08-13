@@ -1,10 +1,10 @@
 :root {
- --cor-primaria:
+ --cor-primaria: rgb(80, 30, 131);
  --cor-secundaria: 
- --cor-fundo: 
- --cor-texto: 
- --cor-contraste: 
- --cor-botao: 
+ --cor-fundo: white;
+ --cor-texto: rgb(118, 56, 180);
+ --cor-contraste: rgb(235, 223, 223);
+ --cor-botao: white;
   
 
 }
@@ -14,7 +14,7 @@ body{
 }
 
 header{
-       background-color: rgb(118, 56, 180);
+       background-color: rgb(80, 30, 131);
      color: rgb(235, 223, 223);
    text-align: center;
   margin: 0 auto;
@@ -24,7 +24,7 @@ header{
 
      main {
    background-color: white;
-  color: rgb(94, 32, 142);
+  color:  rgb(80, 30, 131);
   margin: 0 auto;
   padding: 16px;
 
