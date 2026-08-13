@@ -1,5 +1,10 @@
 :root {
-
+ --cor-primaria:
+ --cor-secundaria: 
+ --cor-fundo: 
+ --cor-texto: 
+ --cor-contraste: 
+ --cor-botao: 
   
 
 }
@@ -40,7 +45,7 @@ header{
     padding: 16px;
 
 
-    flex: 1 1 25%
+    flex: 1 1 20%
   }
 
  img{
