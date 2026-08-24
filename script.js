@@ -15,3 +15,13 @@
                 }
         }
 })
+
+const btnTemaEcuro = document.querySelector (".btn-tema-escuro");
+ btnTemaEcuro.addEventListener("click", mudaTema);
+
+ function mudaTema() { 
+        const corpoPagina = document.body;
+        if (corpoPagina.classList.contains ("tema-escuro")) {
+                
+        }
+ }
