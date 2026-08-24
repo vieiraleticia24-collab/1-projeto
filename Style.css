@@ -8,6 +8,15 @@
   
 
 }
+.tema-escuro{
+  --cor-primaria: #b871ff;
+ --cor-secundaria: #ff83ff;
+ --cor-fundo: lab(0% 0 0);
+ --cor-texto: #ce9dff;
+ --cor-contraste: #181818;
+ --cor-botao: #353333;
+  
+}
 
 body{
   max-width: 100vw;
