@@ -49,7 +49,7 @@ header{
   article{
     display: flex;
 
-    border: 1px solid rgb(118, 56, 180);
+    box-shadow: 2xp 2xp 10xp black (0, 0, 0, 0.3);
 
 
     margin: 16px;
