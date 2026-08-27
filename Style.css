@@ -58,12 +58,12 @@
 
 body{
   max-width: 100vw;
-  font-family: var(--cor-secundaria2);
+  font-family: var(--cor-secundaria1);
 }
 
 header{
-       background-color: var(--cor-primaria2);
-     color: var(--cor-contraste2);
+       background-color: var(--cor-primaria1);
+     color: var(--cor-contraste1);
    text-align: center;
   margin: 0 auto;
   padding: 16px;
@@ -71,8 +71,8 @@ header{
 
 
      main {
-   background-color: var(--cor-fundo2);
-   color:  var(--cor-primaria2);
+   background-color: var(--cor-fundo1);
+   color:  var(--cor-primaria1);
    margin: 0 auto;
    padding: 16px;
 
