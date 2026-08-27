@@ -49,7 +49,7 @@ header{
   article{
     display: flex;
 
-    box-shadow: 2xp 2xp 10xp black (0, 0, 0, 0.3);
+    box-shadow: 0 2xp 6xp black (0, 0, 0, 0.3);
 
 
     margin: 16px;
@@ -79,5 +79,5 @@ header{
  }
 
  .tema-escuro .btn-tema-escuro{
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-primaria);
  }
