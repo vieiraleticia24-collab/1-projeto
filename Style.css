@@ -15,7 +15,7 @@
 
 .tema-escuro{
   --cor-primaria2: hwb(202 14% 20%);
- --cor-secundaria2: lab(56.81% 14.81 -66.43);
+ --cor-secundaria2: lch(89.82% 85.86 95.63);
  --cor-fundo2: #0f0d5a;
  --cor-texto2: hsl(216, 100%, 84%);
  --cor-contraste2: oklab(31.11% -0.01333 -0.18318);
