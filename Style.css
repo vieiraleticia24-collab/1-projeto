@@ -14,12 +14,12 @@
 }
 
 .tema-escuro{
-  --cor-primaria: hsl(270, 52%, 55%);
- --cor-secundaria: hwb(298 30% 15%);
- --cor-fundo: lch(7.04% 32.57 315.58);
- --cor-texto: #ce9dff;
- --cor-contraste: lch(7.04% 32.57 315.58);
- --cor-botao: hwb(284 4% 65% / 0.39);
+  --cor-primaria: hwb(202 14% 20%);
+ --cor-secundaria: lab(56.81% 14.81 -66.43);
+ --cor-fundo: oklab(23.175% -0.00052 -0.14168);
+ --cor-texto: hsl(216, 100%, 84%);
+ --cor-contraste: oklab(31.11% -0.01333 -0.18318);
+ --cor-botao: hwb(229 29% 4% / 0.427);
 
 }
 
