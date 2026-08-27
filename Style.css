@@ -2,7 +2,7 @@
  --cor-primaria1: #132b80;
  --cor-secundaria1: #2857c5;
  --cor-fundo1: white;
- --cor-texto1:;
+ --cor-texto1:hsl(231, 82%, 26%);
  --cor-contraste1: #acdaf1;
  --cor-botao1:  hsl(240, 66%, 42%);
 
@@ -16,7 +16,7 @@
 .tema-escuro{
   --cor-primaria2: hwb(202 14% 20%);
  --cor-secundaria2: lab(56.81% 14.81 -66.43);
- --cor-fundo2: oklab(23.175% -0.00052 -0.14168);
+ --cor-fundo2: oklch(15.995% 0.06021 278.764);
  --cor-texto2: hsl(216, 100%, 84%);
  --cor-contraste2: oklab(31.11% -0.01333 -0.18318);
  --cor-botao2: hwb(229 29% 4% / 0.427);
@@ -41,7 +41,7 @@
 }
 
 .tema-escuro article {
-  background-color: #181818;
+  background-color: var(--cor-fundo2);
 }
 
 .tema-escuro h2 {
@@ -71,7 +71,7 @@ header{
 
 
      main {
-   background-color:  rgba(0, 0, 0, 0.3);
+   background-color: var(--cor-fundo2);
    color:  var(--cor-primaria2);
    margin: 0 auto;
    padding: 16px;
