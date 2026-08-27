@@ -112,7 +112,3 @@ header{
      background-color: var (--cor-primaria);
      border-radius: 50%;
   }
-
-   .tema-escuro .btn-tema-escuro{
-      background-color: var(--cor-primaria);
-  }
