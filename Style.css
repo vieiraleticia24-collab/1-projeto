@@ -1,12 +1,12 @@
 :root {
- --cor-primaria: #132b80;
- --cor-secundaria: #2857c5;
- --cor-fundo: white;
- --cor-texto: #041d52;
- --cor-contraste: #acdaf1;
- --cor-botao:  hsl(240, 66%, 42%);
-  
- --fonte-texto: 'Segoe UI', sans-serif;
+ --cor-primaria1: #132b80;
+ --cor-secundaria1: #2857c5;
+ --cor-fundo1: white;
+ --cor-texto1:;
+ --cor-contraste1: #acdaf1;
+ --cor-botao1:  hsl(240, 66%, 42%);
+
+ --fonte-texto1: 'Segoe UI', sans-serif;
 }
 
 *{
@@ -14,30 +14,30 @@
 }
 
 .tema-escuro{
-  --cor-primaria: hwb(202 14% 20%);
- --cor-secundaria: lab(56.81% 14.81 -66.43);
- --cor-fundo: oklab(23.175% -0.00052 -0.14168);
- --cor-texto: hsl(216, 100%, 84%);
- --cor-contraste: oklab(31.11% -0.01333 -0.18318);
- --cor-botao: hwb(229 29% 4% / 0.427);
+  --cor-primaria2: hwb(202 14% 20%);
+ --cor-secundaria2: lab(56.81% 14.81 -66.43);
+ --cor-fundo2: oklab(23.175% -0.00052 -0.14168);
+ --cor-texto2: hsl(216, 100%, 84%);
+ --cor-contraste2: oklab(31.11% -0.01333 -0.18318);
+ --cor-botao2: hwb(229 29% 4% / 0.427);
 
 }
 
 .tema-escuro p {
-  color: var(hsl(216, 100%, 84%));
+  color: var(--cor-texto2);
 }
 .tema-escuro header p {
-  color: var(lab(56.81% 14.81 -66.43));
+  color: var(--cor-secundaria2);
 }
 
 .tema-escuro a {
-  color: var(lab(56.81% 14.81 -66.43));
+  color: var(--cor-secundaria2);
 }
 
 .tema-escuro button {
   border: none;
-  background-color: var(hwb(229 29% 4% / 0.427));
-  color: var(hsl(216, 100%, 84%));
+  background-color: var(--cor-botao2);
+  color: var(--cor-texto2);
 }
 
 .tema-escuro article {
@@ -45,25 +45,25 @@
 }
 
 .tema-escuro h2 {
-  color: var(hwb(202 14% 20%));
+  color: var(--cor-primaria2);
 }
 
 .tema-escuro .artigo-autor {
-  color: var(lab(56.81% 14.81 -66.43));
+  color: var(--cor-secundaria2);
 }
 
 .tema-escuro .btn-tema-escuro {
-  background-color: var(lab(56.81% 14.81 -66.43));
+  background-color: var(--cor-secundaria2);
 }
 
 body{
   max-width: 100vw;
-  font-family: var(lab(56.81% 14.81 -66.43));
+  font-family: var(--cor-secundaria2);
 }
 
 header{
-       background-color: var(hwb(202 14% 20%));
-     color: var(oklab(31.11% -0.01333 -0.18318));
+       background-color: var(--cor-primaria2);
+     color: var(--cor-contraste2);
    text-align: center;
   margin: 0 auto;
   padding: 16px;
@@ -72,7 +72,7 @@ header{
 
      main {
    background-color: white;
-   color:  var(hwb(202 14% 20%));
+   color:  var(--cor-primaria2);
    margin: 0 auto;
    padding: 16px;
 
@@ -109,6 +109,6 @@ header{
      right: 16px;
      font-size: 32px;
      padding: 12px; 
-     background-color: var (hwb(202 14% 20%));
+     background-color: var(--cor-primaria2);
      border-radius: 50%;
   }
