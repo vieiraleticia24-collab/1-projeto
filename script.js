@@ -21,7 +21,8 @@ const btnTemaEcuro = document.querySelector (".btn-tema-escuro");
 
  function mudaTema() { 
         const corpoPagina = document.body;
-        if (corpoPagina.classList.contains ("tema-escuro")) {
-                
+        if (corpoPagina.classList.contains ("tema-escuro")) {   
+        } else{
+             corpoPagina.classList.add("tema-escuro");
         }
  }
