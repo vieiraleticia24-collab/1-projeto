@@ -18,7 +18,7 @@
  --cor-secundaria: hwb(298 30% 15%);
  --cor-fundo: lch(7.04% 32.57 315.58);
  --cor-texto: #ce9dff;
- --cor-contraste: #181818;
+ --cor-contraste: lch(7.04% 32.57 315.58);
  --cor-botao: hwb(284 4% 65% / 0.39);
 
 }
