@@ -4,7 +4,7 @@
  --cor-fundo: white;
  --cor-texto: rgb(118, 56, 180);
  --cor-contraste: rgb(235, 223, 223);
- --cor-botao: white;
+ --cor-botao:  rgb(80, 30, 131);
   
  --fonte-texto: 'Segoe UI', sans-serif;
 }
@@ -14,12 +14,12 @@
 }
 
 .tema-escuro{
-  --cor-primaria: #b871ff;
- --cor-secundaria: #ff83ff;
- --cor-fundo: lab(0% 0 0);
+  --cor-primaria: hsl(270, 52%, 55%);
+ --cor-secundaria: hwb(298 30% 15%);
+ --cor-fundo: lch(7.04% 32.57 315.58);
  --cor-texto: #ce9dff;
  --cor-contraste: #181818;
- --cor-botao: #353333;
+ --cor-botao: hwb(284 4% 65% / 0.39);
 
 }
 
